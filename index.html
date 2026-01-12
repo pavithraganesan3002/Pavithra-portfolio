@@ -634,13 +634,21 @@ button{
     </div>
  </div>
 
-  <form>
-    <input type="text" placeholder="Your Name">
-    <input type="email" placeholder="Your Email">
-    <input type="text" placeholder="Subject">
-    <textarea placeholder="Message"></textarea>
-    <button>Send Message</button>
-  </form>
+  <form action="https://formsubmit.co/ganesanpavithra91@gmail.com" method="POST">
+
+  <input type="text" name="name" placeholder="Your Name" required>
+
+  <input type="email" name="email" placeholder="Your Email" required>
+
+  <input type="text" name="subject" placeholder="Subject">
+
+  <textarea name="message" placeholder="Message" required></textarea>
+
+  <input type="hidden" name="_captcha" value="false">
+
+  <button type="submit">Send Message</button>
+
+</form>
 </section>
 
 </div>
